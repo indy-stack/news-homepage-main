@@ -10,7 +10,6 @@
 
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
       font-size: 11px;
@@ -48,19 +47,23 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <picture>
         <source media="(min-width: 980px)" srcset="./assets/images/image-web-3-desktop.jpg">
         <img src="./assets/images/image-web-3-mobile.jpg" alt="web-3 image">
       </picture>
       <section class="topic">
         <h1 class="header">The Bright Future of Web 3.0?</h1>
-        <p class="info">We dive into the next evolution of the web that claims to put the power of the platforms back
+        <div class="info">
+           <p>We dive into the next evolution of the web that claims to put the power of the platforms back
           into
           the hands of
           the people.
-          But is it really fulfilling its promise?</p>
-        <button id="btn" class="btn">read more</button>
+          But is it really fulfilling its promise?
+        </p>
+         <button id="btn" class="btn">read more</button>
+        </div>
+       
       </section>
       <section class="new-section">
         <h1 class="header">New</h1>
@@ -68,13 +71,15 @@
           <div id="new-1" class="new-item">
             <h1 class="new-header"> Hydrogen VS Electric Cars</h1>
             <p class="info">Will hydrogen-fueled cars ever catch up to EVs?</p>
-            <hr>
+            
           </div>
+          <hr>
           <div id="new-2" class="new-item">
             <h1 class="new-header"> The Downsides of AI Artistry</h1>
             <p class="info">What are the possible adverse effects of on-demand AI image generation?</p>
-            <hr>
+            
           </div>
+          <hr>
           <div id="new-3" class="new-item">
             <h1 class="new-header">Is VC Funding Drying Up?</h1>
             <p class="info"> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
@@ -82,7 +87,7 @@
         </div>
       </section>
       <section class="explore-section">
-        <div class="explore-item">
+        <div class="explore-item" id="item-1">
           <div class="img">
             <img src="./assets/images/image-retro-pcs.jpg" alt="">
           </div>
@@ -92,7 +97,7 @@
             <p class="content">What happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
-        <div class="explore-item">
+        <div class="explore-item" id="item-2">
           <div class="img">
             <img src="./assets/images/image-top-laptops.jpg" alt="">
           </div>
@@ -102,7 +107,7 @@
             <p class="content">Our best picks for various needs and budgets.</p>
           </div>
         </div>
-          <div class="explore-item">
+          <div class="explore-item" id="item-3">
             <div class="img">
               <img src="./assets/images/image-gaming-growth.jpg" alt="">
             </div>
@@ -117,7 +122,7 @@
     <footer>
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="#">Indira Fraga</a>.
       </div>
     </footer>
   </div>
