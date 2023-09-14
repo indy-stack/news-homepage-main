@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL ](https://your-solution-url.com)
+- Solution URL: [solution URL ](https://www.frontendmentor.io/solutions/news-homepage-RpPlOX8Doz)
 - Live Site URL: [live site URL](https://indy-stack.github.io/news-homepage-main/)
 
 ## My process
