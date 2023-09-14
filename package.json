@@ -1,0 +1,24 @@
+{
+  "name": "news-homepage-main",
+  "version": "1.0.0",
+  "description": "A simple frontend design given as a challenge by Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indy-stack/news-homepage-main.git"
+  },
+  "keywords": [
+    "responsive",
+    "web",
+    "design"
+  ],
+  "author": "Indira Fraga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indy-stack/news-homepage-main/issues"
+  },
+  "homepage": "https://github.com/indy-stack/news-homepage-main#readme"
+}
